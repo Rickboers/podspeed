@@ -45,7 +45,7 @@ This is an open-source project. We encourage contributions from the community.
 
 ## License
 
-[Specify your chosen license here]
+This project is licensed under the MIT License.
 
 ---
 

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube conversation flow controller",
+  "version": "1.0",
+  "description": "Control podcast flow of conversation based on words per second: Speed up Lex Fridman, slow down Ben Shapiro",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://www.youtube.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icon128.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
