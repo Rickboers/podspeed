@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "YouTube conversation flow controller",
+  "name": "Podspeed",
   "version": "1.0",
   "description": "Control podcast flow of conversation based on words per second: Speed up Lex Fridman, slow down Ben Shapiro",
   "icons": {
